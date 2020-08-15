@@ -20,7 +20,7 @@
         android:layout_margin="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="S"
+        android:text="-"
         />
 
     <TextView
@@ -36,9 +36,11 @@
         android:layout_margin="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="S"
+        android:text="-"
         />
 <EditText
+    android:imeOptions="actionDone"
+    android:inputType="text"
     android:id="@+id/addStack"
     android:layout_margin="10dp"
     android:layout_width="match_parent"
